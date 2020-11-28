@@ -177,8 +177,8 @@ async function getBackgroundImg(){
     var datetime = responseJSON.datetime;
     console.log(responseJSON.datetime)
 
-    // var hour =  datetime.slice(11,13);
-    // console.log(datetime.slice(11,13));
+    var hour =  datetime.slice(11,13);
+    console.log(datetime.slice(11,13));
 
     if(hour >=6 && hour <=19){
         bg = "bg.png";
